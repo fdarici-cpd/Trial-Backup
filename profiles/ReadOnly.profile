@@ -2744,6 +2744,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>A1__c.Field_1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.AccountNumber</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -9492,6 +9497,9 @@
         <field>copado__User_Story__c.copado__userStory_reason__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>A1__c-A1 Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
