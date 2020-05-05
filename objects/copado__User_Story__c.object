@@ -5823,7 +5823,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <inlineHelpText>If checked, the User Story is marked as ready to be promoted. The user story will appear as &apos;Ahead&apos; and available to be selected in the Promotion and Branch Management pages.</inlineHelpText>
         <label>Ready to Promote</label>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
@@ -6011,6 +6011,16 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                     <fullName>Cancelled</fullName>
                     <default>false</default>
                     <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>To Do</fullName>
+                    <default>false</default>
+                    <label>To Do</label>
+                </value>
+                <value>
+                    <fullName>Done</fullName>
+                    <default>false</default>
+                    <label>Done</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -6244,22 +6254,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <columns>LAST_UPDATE</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
-    </listViews>
-    <listViews>
-        <fullName>copado__Cli_Listview</fullName>
-        <columns>NAME</columns>
-        <columns>copado__User_Story_Title__c</columns>
-        <columns>copado__Status__c</columns>
-        <columns>copado__Project__c</columns>
-        <columns>copado__Org_Credential__c</columns>
-        <columns>CREATED_DATE</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>copado__Status__c</field>
-            <operation>equals</operation>
-            <value>In Progress</value>
-        </filters>
-        <label>Cli Listview</label>
     </listViews>
     <nameField>
         <displayFormat>US-{0000000}</displayFormat>
@@ -7593,6 +7587,10 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
                 <default>false</default>
             </values>
             <values>
+                <fullName>Done</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Draft</fullName>
                 <default>true</default>
             </values>
@@ -7606,6 +7604,10 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
             </values>
             <values>
                 <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>To Do</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
