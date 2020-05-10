@@ -170,6 +170,14 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>Field_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Field 3</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>PL_1__c</fullName>
         <externalId>false</externalId>
         <label>PL 1</label>

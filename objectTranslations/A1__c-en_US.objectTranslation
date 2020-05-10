@@ -17,6 +17,10 @@
         <name>Field_2__c</name>
     </fields>
     <fields>
+        <label><!-- Field 3 --></label>
+        <name>Field_3__c</name>
+    </fields>
+    <fields>
         <label><!-- PL 1 --></label>
         <name>PL_1__c</name>
         <picklistValues>
