@@ -33,6 +33,7 @@
     <customValue>
         <fullName>Profile</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Profile</label>
     </customValue>
     <description>Metadata types to be excluded from the auto-resolve feature of Copado.</description>
