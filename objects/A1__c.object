@@ -161,123 +161,12 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
-    <fields>
-        <fullName>Field_2__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Field 2</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Field_3__c</fullName>
-        <externalId>false</externalId>
-        <label>Field 3</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>PL_1__c</fullName>
-        <externalId>false</externalId>
-        <label>PL 1</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>1</fullName>
-                    <default>false</default>
-                    <label>1</label>
-                </value>
-                <value>
-                    <fullName>2</fullName>
-                    <default>false</default>
-                    <label>2</label>
-                </value>
-                <value>
-                    <fullName>3</fullName>
-                    <default>false</default>
-                    <label>3</label>
-                </value>
-                <value>
-                    <fullName>4</fullName>
-                    <default>false</default>
-                    <label>4</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>PL_2__c</fullName>
-        <externalId>false</externalId>
-        <label>PL 2</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>A</fullName>
-                    <default>false</default>
-                    <label>A</label>
-                </value>
-                <value>
-                    <fullName>B</fullName>
-                    <default>false</default>
-                    <label>B</label>
-                </value>
-                <value>
-                    <fullName>C</fullName>
-                    <default>false</default>
-                    <label>C</label>
-                </value>
-                <value>
-                    <fullName>D</fullName>
-                    <default>false</default>
-                    <label>D</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
     <label>A1</label>
     <nameField>
         <label>A1 Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>A1</pluralLabel>
-    <recordTypes>
-        <fullName>RT1</fullName>
-        <active>true</active>
-        <label>RT1</label>
-        <picklistValues>
-            <picklist>PL_1__c</picklist>
-            <values>
-                <fullName>1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>3</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>PL_2__c</picklist>
-            <values>
-                <fullName>A</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>C</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

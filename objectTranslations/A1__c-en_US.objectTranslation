@@ -12,57 +12,5 @@
         <label><!-- Field 1 --></label>
         <name>Field_1__c</name>
     </fields>
-    <fields>
-        <label><!-- Field 2 --></label>
-        <name>Field_2__c</name>
-    </fields>
-    <fields>
-        <label><!-- Field 3 --></label>
-        <name>Field_3__c</name>
-    </fields>
-    <fields>
-        <label><!-- PL 1 --></label>
-        <name>PL_1__c</name>
-        <picklistValues>
-            <masterLabel>1</masterLabel>
-            <translation><!-- 1 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>2</masterLabel>
-            <translation><!-- 2 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>3</masterLabel>
-            <translation><!-- 3 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>4</masterLabel>
-            <translation><!-- 4 --></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <label><!-- PL 2 --></label>
-        <name>PL_2__c</name>
-        <picklistValues>
-            <masterLabel>A</masterLabel>
-            <translation><!-- A --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>B</masterLabel>
-            <translation><!-- B --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>C</masterLabel>
-            <translation><!-- C --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>D</masterLabel>
-            <translation><!-- D --></translation>
-        </picklistValues>
-    </fields>
-    <recordTypes>
-        <label><!-- RT1 --></label>
-        <name>RT1</name>
-    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
